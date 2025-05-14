@@ -16,6 +16,7 @@ public class ProductController {
     @GetMapping("/{id}")
     public String findById(@PathVariable int id) {
         logger.info(id + "jsdjashdjadhka");
+        logger.info(id + "djasljdasklkl");
         return "Product with id " + id + " found";
     }
 }
